@@ -1,4 +1,4 @@
-## API RestFullto de Cadastro de pessoas e livros (Projeto em construção)
+## API RESTful de Cadastro de pessoas e livros (Projeto em construção)
 
 ### Tecnologias usadas ate o momento
 
