@@ -19,7 +19,7 @@ import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 
-import com.mrsystems.api.data.v1.BookVO;
+import com.mrsystems.api.data.vo.v1.BookVO;
 import com.mrsystems.api.model.Book;
 import com.mrsystems.api.repository.BookRepository;
 import com.mrsystems.api.service.BookService;

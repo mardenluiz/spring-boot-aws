@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.mrsystems.api.controller.BookController;
-import com.mrsystems.api.data.v1.BookVO;
+import com.mrsystems.api.data.vo.v1.BookVO;
 import com.mrsystems.api.exceptions.RequiredObjectNotFoundExcption;
 import com.mrsystems.api.exceptions.ResourceNotFoundException;
 import com.mrsystems.api.model.Book;

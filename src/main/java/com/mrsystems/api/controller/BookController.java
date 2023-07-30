@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mrsystems.api.data.v1.BookVO;
-import com.mrsystems.api.data.v1.PersonVO;
+import com.mrsystems.api.data.vo.v1.BookVO;
+import com.mrsystems.api.data.vo.v1.PersonVO;
 import com.mrsystems.api.service.BookService;
 
 import io.swagger.v3.oas.annotations.Operation;

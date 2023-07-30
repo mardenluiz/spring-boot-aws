@@ -1,6 +1,6 @@
 package com.mrsystems.api.unittests.mocks;
 
-import com.mrsystems.api.data.v1.BookVO;
+import com.mrsystems.api.data.vo.v1.BookVO;
 import com.mrsystems.api.model.Book;
 
 import java.time.LocalDate;

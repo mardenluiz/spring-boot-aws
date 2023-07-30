@@ -3,7 +3,7 @@ package com.mrsystems.api.unittests.mocks;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mrsystems.api.data.v1.PersonVO;
+import com.mrsystems.api.data.vo.v1.PersonVO;
 import com.mrsystems.api.model.Person;
 
 public class MockPerson {

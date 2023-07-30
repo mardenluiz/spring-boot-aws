@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.modelmapper.ModelMapper;
 
-import com.mrsystems.api.data.v1.PersonVO;
+import com.mrsystems.api.data.vo.v1.PersonVO;
 import com.mrsystems.api.model.Person;
 import com.mrsystems.api.unittests.mocks.MockPerson;
 

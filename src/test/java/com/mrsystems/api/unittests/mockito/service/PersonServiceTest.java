@@ -22,7 +22,7 @@ import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 
-import com.mrsystems.api.data.v1.PersonVO;
+import com.mrsystems.api.data.vo.v1.PersonVO;
 import com.mrsystems.api.exceptions.RequiredObjectNotFoundExcption;
 import com.mrsystems.api.model.Person;
 import com.mrsystems.api.repository.PersonRepository;

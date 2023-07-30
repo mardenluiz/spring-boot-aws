@@ -1,4 +1,4 @@
-package com.mrsystems.api.data.v1;
+package com.mrsystems.api.data.vo.v1;
 
 import java.io.Serializable;
 import java.util.Objects;

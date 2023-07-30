@@ -2,6 +2,7 @@ package com.mrsystems.api.exceptions.handler;
 
 import java.util.Date;
 
+import com.mrsystems.api.exceptions.InvalidJwtAuthenticationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -45,6 +46,16 @@ public class CustonExceptionHandler extends ResponseEntityExceptionHandler {
 		
 		return new ResponseEntity<>(exceptionResponse, HttpStatus.BAD_REQUEST);
 		
+	}
+
+	@ExceptionHandler(InvalidJwtAuthenticationException.class)
+	public final ResponseEntity<ExceptionResponse> handleInvalidJwtAuthenticationException(Exception ex, WebRequest request) {
+
+		ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), ex.getMessage(),
+				request.getDescription(false));
+
+		return new ResponseEntity<>(exceptionResponse, HttpStatus.FORBIDDEN);
+
 	}
 
 }
